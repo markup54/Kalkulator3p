@@ -142,6 +142,9 @@ namespace Kalkulator3p
                         MessageBox.Show(i.ToString(), "liczba pierwsza");
                     }
                 }
+
+                List<int> pierwsze = sitoEratostenesa(liczba2);
+                MessageBox.Show(String.Join(" ",pierwsze));
             }
         }
 
